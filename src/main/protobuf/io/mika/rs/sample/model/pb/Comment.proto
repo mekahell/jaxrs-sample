@@ -1,0 +1,9 @@
+package io.mika.rs.sample.model.pb;
+
+option java_package = "io.mika.rs.sample.model.pb";
+option java_outer_classname = "Comment";
+
+message CommentType {
+    required string from = 1;
+    required string txt = 2;
+}
