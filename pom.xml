@@ -20,6 +20,7 @@
         <arquillian.version>1.1.5.Final</arquillian.version>
         <arquillian-glassfish-managed.version>1.0.0.CR4</arquillian-glassfish-managed.version>
         <junit.version>4.11</junit.version>
+        <jaxrs-commons.version>1.0-SNAPSHOT</jaxrs-commons.version>
     </properties>
 
     <dependencyManagement>
@@ -59,7 +60,7 @@
         <dependency>
             <groupId>io.mika.rs</groupId>
             <artifactId>jaxrs-commons</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${jaxrs-commons.version}</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
